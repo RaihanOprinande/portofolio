@@ -1,7 +1,4 @@
-/* ============================================
-   KARAJO PORTFOLIO — JavaScript
-   Clean, smooth interactions
-   ============================================ */
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
