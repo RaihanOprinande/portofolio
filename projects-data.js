@@ -21,7 +21,7 @@ const PROJECTS = {
       </div>
  
       <h3>1. Core Challenges</h3>
-      <p>most critical problems needed solving is thousands of jurisdictional records were scattered across unstructured CSV and Excel files — full of duplicates and missing identifiers that made any reporting unreliable.</p>
+      <p>The core challenge was thousands of jurisdictional records scattered across unstructured files, full of duplicates and missing identifiers that made any reporting unreliable.</p>
  
       <h3>2. Solutions Built</h3>
       <ul>
@@ -80,7 +80,7 @@ const PROJECTS = {
       </ul>
  
       <h3>3. Technical Architecture</h3>
-      <p>The backend runs on Tanstack with PostgreSQL, handling multi-role authentication, business logic, and relational data queries. The frontend is built with React Query for efficient server-state management and real-time data synchronization across all user roles.</p>
+      <p>The backend runs on tRPC with PostgreSQL, handling multi-role authentication, business logic, and relational data queries. The frontend is built with React Query for efficient server-state management and real-time data synchronization across all user roles.</p>
  
       <h3>4. Results & Impact</h3>
       <ul>
