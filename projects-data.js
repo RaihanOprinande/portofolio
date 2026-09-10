@@ -111,8 +111,8 @@ const PROJECTS = {
       <p>My role was focused entirely on backend architecture and API design — building the full server-side layer that the mobile client would consume, including security, business logic, and performance under load.</p>
 
       <div class="detail-gallery">
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #0c0c0c 0%, #2d2d2d 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;">🧠</span></div>
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;">🏆</span></div>
+        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #0c0c0c 0%, #2d2d2d 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;"><img src="assets/initial-result.png" style="width: 100%; display: block;" /></span></div>
+        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;"><img src="assets/welcome.png" style="width: 100%; display: block;" /></span></div>
       </div>
 
       <h3>1. Core Challenges</h3>
@@ -155,9 +155,8 @@ const PROJECTS = {
       <p>This project was a full point-of-sale and inventory management system built for a multi-branch food and beverage enterprise. The business needed a centralized platform to track stock, manage recipes (Bill of Materials), and get accurate cost-of-goods recommendations across all locations — something their previous spreadsheet-based process couldn't reliably provide.</p>
       <p>I built and deployed this system end-to-end during a 4-month internship at PT Milenial Elite Teknologi, working across database design, backend logic, and the frontend interface.</p>
 
-      <div class="detail-gallery">
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #7f1d1d 0%, #b91c1c 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;">🍽️</span></div>
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #b91c1c 0%, #ef4444 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;">📦</span></div>
+      <div class="detail-full-image" style="margin: 48px 0; border-radius: 16px; overflow: hidden; border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+        <img src="assets/dashboard_pos.png" style="width: 100%; display: block;" />
       </div>
 
       <h3>1. Core Challenges</h3>
