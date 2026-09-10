@@ -147,7 +147,7 @@ const PROJECTS = {
     tech: 'Laravel · MySQL · Blade · Tailwind CSS',
     gradient: 'linear-gradient(135deg, #7f1d1d 0%, #b91c1c 50%, #ef4444 100%)',
     emoji: '🍽️',
-    image: '',
+    image: 'assets/metech.jpg',
     prev: { id: 'wellnet', title: 'WELL-NET Digital Wellbeing' },
     next: { id: 'silog', title: 'SILOG POLRI' },
     content: `
