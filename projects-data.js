@@ -110,9 +110,11 @@ const PROJECTS = {
       <p>WELL-NET is a digital wellbeing application designed to help users build healthier habits through structured self-reflection modules and a gamified reward system. Users progress through sequential learning modules, earning rewards as they complete milestones.</p>
       <p>My role was focused entirely on backend architecture and API design — building the full server-side layer that the mobile client would consume, including security, business logic, and performance under load.</p>
 
-      <div class="detail-gallery">
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #0c0c0c 0%, #2d2d2d 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;"><img src="assets/initial-result.png" style="width: 100%; display: block;" /></span></div>
-        <div class="detail-gallery-item" style="background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); height: 380px; border-radius: 12px; display: flex; align-items: center; justify-content: center;"><span style="font-size: 64px; opacity: 0.4;"><img src="assets/welcome.png" style="width: 100%; display: block;" /></span></div>
+      <div style="margin: 48px 0; display: flex; justify-content: center;">
+          <div style="background: #000; border-radius: 20px; padding: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); max-width: 280px;">
+            <img src="assets/welcome.png" style="width: 100%; display: block; border-radius: 14px;" />
+          </div>
+        </div>
       </div>
 
       <h3>1. Core Challenges</h3>
@@ -125,6 +127,13 @@ const PROJECTS = {
         <li><strong>Automated Reward Engine</strong> — Developed reward distribution logic tied to module completion events, designed to prevent duplicate payouts under concurrent load.</li>
         <li><strong>Stress Testing</strong> — Validated all core algorithms against mock datasets simulating high-concurrency scenarios before handoff to the frontend team.</li>
       </ul>
+
+      <div style="margin: 48px 0; display: flex; justify-content: center;">
+          <div style="background: #000; border-radius: 20px; padding: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); max-width: 280px;">
+            <img src="assets/initial-result.png" style="width: 100%; display: block; border-radius: 14px;" />
+          </div>
+        </div>
+      </div>
 
       <h3>3. Technical Architecture</h3>
       <p>The backend is built entirely on Laravel with a MySQL database, structured around a normalized schema that handles complex multi-role entity relationships. All API endpoints are secured via Laravel Sanctum token authentication and validated against strict input rules before any database write occurs.</p>
